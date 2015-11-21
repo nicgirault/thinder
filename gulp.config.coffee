@@ -47,11 +47,11 @@ config.input.replace.patterns = []
 config.input.static = {}
 # Can add keys in both input and output to add static profile
 config.input.static.fonts = [
-  # 'bower_components/font-awesome/fonts/*'
+  'bower_components/ionic/release/fonts/*'
   # 'bower_components/bootstrap/fonts/*'
 ]
-config.input.static.i18n = [
-  # "#{config.input.path}/static/i18n/*"
+config.input.static.ioniccss = [
+  'bower_components/ionic/release/css/ionic.min.css'
 ]
 config.input.static.ie8js = [
 
@@ -87,10 +87,8 @@ config.output.vendor = 'vendor.js'
 config.output.manifest = config.output.path
 
 config.output.static = {}
-config.output.static.fonts = "#{config.output.path}/style/fonts"
-config.output.static.i18n = "#{config.output.path}/static/i18n"
-config.output.static.ie8js = "#{config.output.path}/script"
-config.output.static.ie8css = "#{config.output.path}/style"
+config.output.static.fonts = "#{config.output.path}/fonts"
+config.output.static.ioniccss = "#{config.output.path}/style"
 
 config.output.loopback = {}
 config.output.loopback.filename = 'services.js'
