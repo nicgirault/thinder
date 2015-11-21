@@ -43,5 +43,5 @@ angular.module('starter', [
             'X-Parse-REST-API-KEY': 'G20uNaG0lAvRZ84PLdDB9gnTmtFCTEfwztixPmwp'
         })
   # if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise '/app/playlists'
+  $urlRouterProvider.otherwise '/app/browse'
   return
