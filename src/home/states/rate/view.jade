@@ -1,0 +1,9 @@
+ion-view(view-title="Sexy?")
+  ion-pane
+    td-cards
+      td-card(ng-repeat='card in technologies', on-destroy='cardDestroyed($index)', on-swipe-left='cardSwipedLeft($index)', on-swipe-right='cardSwipedRight($index)', on-partial-swipe='cardPartialSwipe(amt)', class='card-{{$index}}')
+        .image(ng-controller='CardCtrl')
+          .no-text NOPE
+          h4 {{card.title}}
+          img(ng-src='{{card.logoUrl}}')
+          .yes-text LIKE

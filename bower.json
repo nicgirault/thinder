@@ -1,0 +1,23 @@
+{
+  "name": "thinder",
+  "homepage": "https://github.com/nicgirault/thinder",
+  "authors": [
+    "nicgirault <nic.girault@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.8",
+    "ionic": "~1.1.1",
+    "ionic-ion-tinder-cards": "ionic-contrib-tinder-cards#*"
+  }
+}
